@@ -29,7 +29,7 @@ const TimerApp = ({ initicalCount }: Props) => {
     setIsRunnning(false)
   }
 
-  // タイマーをリセttおする関数を定義します。カウントを初期カウントに戻し、isRunningの状態をfalseに更新
+  // タイマーをリセットする関数を定義します。カウントを初期カウントに戻し、isRunningの状態をfalseに更新
   const reset = () => {
     setCount(initicalCount)
     setIsRunnning(false)
